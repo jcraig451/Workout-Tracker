@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // db mongo
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://user1:Bradford321*@ds213255.mlab.com:13255/heroku_h7d2qb8q";
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
