@@ -21,8 +21,8 @@ mongoose.connect(MONGODB_URI, {
 });
 
 // Creating Routes
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+require("./routes/apiRoutez")(app);
+require("./routes/htmlRoutez")(app);
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
